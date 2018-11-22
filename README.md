@@ -11,6 +11,12 @@ benchmark and test scripts we created to make sure things worked the way we expe
 and the results of those benchmarks.
 
 
+## Repo Contents
+
+- **Benchmarks**: All our basic and detailed benchmarks, in the `/benchmarks` directory.
+- **Data Stores**: All the other data stores we created in the process of proposing the
+    3 that ended up in the official repo. In the `/data_stores` directory.
+- **Tests for the data stores**: In the `/spec` directory.
 
 ## Running Tests
 
