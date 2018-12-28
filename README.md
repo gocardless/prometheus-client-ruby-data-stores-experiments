@@ -17,6 +17,8 @@ and the results of those benchmarks.
 - **Data Stores**: All the other data stores we created in the process of proposing the
     3 that ended up in the official repo. In the `/data_stores` directory.
 - **Tests for the data stores**: In the `/spec` directory.
+- **Stress Tests for Stores**: Scripts to test that the stores are behaving as we expect,
+    in either multiple processes, or under pathological cases. In the `/stress_tests` directory.
 
 ## Running Tests
 
