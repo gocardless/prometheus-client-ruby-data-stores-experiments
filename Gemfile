@@ -1,14 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'concurrent-ruby'
 gem 'prometheus-client'
-gem 'rspec'
+gem 'redis'
 
-if !defined?(RUBY_ENGINE) || RUBY_ENGINE == "ruby" # MmapStore only works on MRI
-  gem 'mmap2'
+group :test do
+  gem 'connection_pool'
+  gem 'rspec'
 end
 
-gem 'benchmark-ips'
-gem 'connection_pool'
-gem 'redis'
-gem 'rack'
-gem 'concurrent-ruby'
